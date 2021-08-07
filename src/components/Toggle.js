@@ -1,9 +1,9 @@
-import React from "react";
+import React, {useState } from "react";
 
 function Toggle() {
   const [isOn, setIsOn] = useState(false);
 
- handleClick = () => {
+const handleClick = () => {
     setIsOn((isOn) => !isOn);
   }
 
